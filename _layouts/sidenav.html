@@ -22,8 +22,14 @@
         <div class="wrap-content">
           <main id="content-main" class="content-main" role="main">
 
-            <div class="gridband">
+            <div class="gridband layout-3q1q">
+              <div class="col1q-r griditem">
+                {% include side_nav.html %}
+              </div>
+
+              <div class="col3q griditem">
                 {{ content }}
+              </div>
             </div>
 
           </main>
